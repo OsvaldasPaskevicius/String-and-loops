@@ -1,15 +1,25 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //Pasalinti pirmi simboliai
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+
+        String nonStart = "Hello" + "There";
+        nonStart = nonStart.replace("H", "");
+        nonStart = nonStart.replace("T", "");
+        System.out.println(nonStart);
+
+        String nonStart1 = "java" + "code";
+        nonStart1 = nonStart1.replace("j", "");
+        nonStart1 = nonStart1.replace("c", "");
+        System.out.println(nonStart1);
+
+        String nonStart2 = "shotl" + "java";
+        nonStart2 = nonStart2.replace("s", "");
+        nonStart2 = nonStart2.replace("j", "");
+        System.out.println(nonStart2);
+
+
+
     }
 }
